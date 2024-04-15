@@ -27,6 +27,7 @@ body {
     background-color: #16263f;
     width: 275px;
     border-radius: 15px;
+    align-items: center;
 }
 
 .ADA {
@@ -35,11 +36,11 @@ body {
 
 .mainpic {
     width: 100%;
-    width: 225px;
+    width: 245px;
     height: 225px;
     background-color: #004a81;
     border-radius: 15px;
-    align-items: center;
+    
 }
 
 .avatarpic {
@@ -48,7 +49,6 @@ body {
     height: 30px;
     border-radius: 50%;
     border: 2px solid white;
-
 }
 
 .text-main {
@@ -69,12 +69,13 @@ body {
     font-family: 'Outfit';
     font-weight: 500;
     font-size: 12px;
+    padding-left: 7px;
 }
 
 .ETH {
     width: 100%;
     width: 12px;
-    height: 22px;
+    height: 18px;
 
 }
 
@@ -82,13 +83,14 @@ body {
     color:#899dc0;
     font-family: 'Outfit';
     font-weight: 300;
-    font-size: 10px;
+    font-size: 12px;
+    padding-left: 7px;
 }
 
 .clock {
     width: 100%;
-    width: 12px;
-    height: 22px;
+    width: 18px;
+    height: 18px;
 
 }
 
@@ -96,6 +98,7 @@ body {
     color:#899dc0;
     font-family: 'Outfit';
     font-weight: 300;
+    padding-left: 15px;
 }
 
 .color-text {
@@ -108,19 +111,30 @@ body {
     border-bottom: 1px solid hsl(215, 32%, 27%);
 }
 
+.ADATA {
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    gap: 77px;
+}
+
 .name {
     display: flex;
+    align-items: center;
+    justify-content: baseline;
+    padding-top: 5px;
     
-}
-
-.bada {
-    display: flex;
-}
-
-.price {
-    display: flex;
 }
 
 .time {
     display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
 }
